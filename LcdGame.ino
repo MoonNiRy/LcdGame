@@ -6,7 +6,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 #define yPin 1
 #define btnJoy 2
 
-#define V2
+#define V1 // Можно изменить на V2. Изменятся механики игры
 
 byte player[] = {
   0x00,
