@@ -128,8 +128,8 @@ int game() {
   while (is_game) {
     if (btn()) break;
 
-    int xJoy = Joy(0);
-    int yJoy = Joy(1);
+    int xJoy = Joy(xPin);
+    int yJoy = Joy(yPin);
     // Работа с игроком
     if (!is_yJoy) { 
       if (yJoy != 0) {
@@ -190,8 +190,8 @@ int game() {
   bool is_game = true;
   while (is_game) {
     if (btn()) break;
-    int xJoy = Joy(0);
-    int yJoy = Joy(1);
+    int xJoy = Joy(xPin);
+    int yJoy = Joy(yPin);
 
     // Работа с игроком
     if (!is_Joy) { 
