@@ -2,13 +2,13 @@
 Проект на Arduino 
 - Гонки на LCD экране (I2C)
 - Две версии (V1 и V2)
-Подключение к Arduino:
--Lcd дисплей:
+- Подключение к Arduino:
+Lcd дисплей:
  SDA - A4
  SCL - A5
  VCC - 5V
  GND - GND
--Джойстик:
+Джойстик:
  VCC - 5V
  GND - GND
  X - A0
